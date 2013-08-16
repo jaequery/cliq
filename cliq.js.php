@@ -19,7 +19,7 @@
         document.getElementsByTagName("head")[0].appendChild(script);
     }
 
-    loadScript("/cliq/inc/lazyload.js", function () {
+    loadScript("//bufoo.jaequery.com/cliq/inc/lazyload.js", function () {
 	var scripts = ['//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', '//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.0/jquery.qtip.min.js'];
 	var styles = ['//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.0/jquery.qtip.min.css'];
 	LazyLoad.css(styles, function () {});
